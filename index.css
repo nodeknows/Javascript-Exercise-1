@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+}
+
+#kpcontain {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#keypad {
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+#keypad button {
+    width: 24%;
+    height: 5vh;
+    margin: .5%;
+}
+
+#input {
+    width: 25%;
+    height: 3vh;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+
+/** extras **/
+#equal {
+    background-color: lightblue;
+}
+
+#equal:hover {
+    background-color: lightcoral;
+}
+
+#equal:active {
+    background-color: darkred;
+    color: white;
+}
