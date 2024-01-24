@@ -29,6 +29,29 @@ body {
     text-align: center;
 }
 
+.colors {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+.colors:hover {
+    background-color: darkred;
+}
+
+.colors:active {
+    background-color: white;
+    color: black;
+}
+
+hr {
+    margin: 1%
+}
+
+#output {
+    display: none;
+}
+
 /** extras **/
 #equal {
     background-color: lightblue;
